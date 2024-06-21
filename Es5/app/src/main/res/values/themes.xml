@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Esempio5Lab" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#3F51B5</item>
+    </style>
+
+    <style name="Theme.Esempio5Lab" parent="Base.Theme.Esempio5Lab" />
+</resources>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Esempio4Lab</string>
+    <string-array name="words">
+        <item>ALBERO</item>
+        <item>ACQUA</item>
+        <item>AMICI</item>
+        <item>AMICIZIA</item>
+        <item>AMORE  </item>
+        <item>ANATOMIA</item>
+        <item>ANSIA</item>
+        <item>ARTE</item>
+        <item>AUTOBUS</item>
+        <item>BACIO</item>
+        <item>BAGNO</item>
+        <item>BELLO</item>
+        <item>BIGLIETTO</item>
+        <item>BISOGNO</item>
+        <item>BLU</item>
+        <item>BORSA</item>
+        <item>CAFF?</item>
+        <item>CAMERA</item>
+        <item>CANE</item>
+        <item>CANZONE</item>
+        <item>CAPELLI</item>
+        <item>CASA  </item>
+        <item>CELLULARE</item>
+        <item>CENA</item>
+        <item>CIBO</item>
+        <item>COLAZIONE</item>
+        <item>COMPUTER  </item>
+        <item>CRAVATTA  </item>
+        <item>CUCINA</item>
+        <item>CULTURA</item>
+        <item>DOMANI</item>
+        <item>FAME  </item>
+        <item>FAMIGLIA</item>
+        <item>FREDDO</item>
+        <item>GELOSIA</item>
+        <item>GIALLO</item>
+        <item>GIOCO</item>
+        <item>GIORNALE</item>
+        <item>GIORNO</item>
+        <item>INTERNET</item>
+        <item>LAVORO</item>
+        <item>LETTO</item>
+        <item>LEZIONE</item>
+        <item>LIBRO</item>
+        <item>MACCHINA</item>
+        <item>MAMMA    </item>
+        <item>MARE</item>
+        <item>MATTINA</item>
+        <item>MESSAGGIO</item>
+        <item>MONTAGNA</item>
+        <item>MORTE</item>
+        <item>MUSICA</item>
+        <item>NEVE</item>
+        <item>NOIA</item>
+        <item>NOTTE</item>
+        <item>ODIO</item>
+        <item>OGGI</item>
+        <item>ORARIO </item>
+        <item>PASTA</item>
+        <item>PECCATO</item>
+        <item>PENNA</item>
+        <item>PROGENITORE</item>
+        <item>POESIA</item>
+        <item>PRANZO</item>
+        <item>PRETE</item>
+        <item>REGOLA</item>
+        <item>RELIGIONE</item>
+        <item>ROSSO</item>
+        <item>SCARPE</item>
+        <item>SETE</item>
+        <item>SIGARETTA</item>
+        <item>SOLDI</item>
+        <item>SONNO</item>
+        <item>SORELLA</item>
+        <item>STRUMENTO</item>
+        <item>TELEFONO</item>
+        <item>TELEVISIONE</item>
+        <item>TEMPO</item>
+        <item>TESORO</item>
+        <item>TRENO</item>
+        <item>TUTTO</item>
+        <item>VERDE</item>
+    </string-array>
+</resources>

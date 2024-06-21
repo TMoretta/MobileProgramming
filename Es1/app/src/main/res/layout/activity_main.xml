@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+
+    <FrameLayout
+        android:id="@+id/headerFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80FFC107">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingVertical="10dp"
+            android:text="Moretta Tommaso"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerFL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#FF9800"
+        android:paddingHorizontal="20dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <GridLayout
+        android:id="@+id/gameGridGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movesTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:columnCount="5"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/up1Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:tag="up1"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/up2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/up3Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/left1Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="L" />
+
+        <TextView
+            android:id="@+id/n1TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/n2TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+
+            android:id="@+id/n3TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/right1Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/left2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="L" />
+
+        <TextView
+            android:id="@+id/n4TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/n5TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/n6TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/right2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/left3Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="L" />
+
+        <TextView
+            android:id="@+id/n7TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/n8TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/n9TV"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/right3Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/down1Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/down2Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/down3Btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="D" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameGridGL"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Best player:"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/bestPlayerTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="100dp"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Moves:"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/bestMovesTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/recapBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="RECAP"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:text="RESET"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
